@@ -1,62 +1,67 @@
-# Hello World PhoneGap Application [![bitHound Score][bithound-img]][bithound-url]
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
 
-> A Hello World application built with PhoneGap
+C:\Users\sayantika>java -version
+java version "1.8.0_401"
+Java(TM) SE Runtime Environment (build 1.8.0_401-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.401-b10, mixed mode)
 
-## Getting Help with PhoneGap
+C:\Users\sayantika>where java
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe
+C:\Program Files\Java\openlogic-openjdk-11.0.25+9-windows-x64\bin\java.exe
 
-If you are looking for help with PhoneGap please visit the
-[PhoneGap Forums](https://forums.adobe.com/community/phonegap).
+C:\Users\sayantika>"C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -version
+java version "1.8.0_401"
+Java(TM) SE Runtime Environment (build 1.8.0_401-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.401-b10, mixed mode)
 
-## Usage
+C:\Users\sayantika>"C:\Program Files\Java\openlogic-openjdk-11.0.25+9-windows-x64\bin\java.exe" -version
+openjdk version "11.0.25" 2024-10-15
+OpenJDK Runtime Environment OpenLogic-OpenJDK (build 11.0.25+9-adhoc..jdk11u)
+OpenJDK 64-Bit Server VM OpenLogic-OpenJDK (build 11.0.25+9-adhoc..jdk11u, mixed mode)
 
-### Desktop
+C:\Users\sayantika>java -v
+Unrecognized option: -v
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
 
-In your browser, open the file:
+C:\Users\sayantika>java -version
+java version "1.8.0_401"
+Java(TM) SE Runtime Environment (build 1.8.0_401-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.401-b10, mixed mode)
 
-    /www/index.html
+C:\Users\sayantika>set JAVA_HOME=C:\Program Files\Java\openlogic-openjdk-11.0.25+9-windows-x64
 
-### PhoneGap CLI
+C:\Users\sayantika>set PATH=%JAVA_HOME%\bin;%PATH%
 
-This repository is automatically downloaded by [phonegap-cli][phonegap-cli-url]
-when you create a new application.
+C:\Users\sayantika>java -version
+openjdk version "11.0.25" 2024-10-15
+OpenJDK Runtime Environment OpenLogic-OpenJDK (build 11.0.25+9-adhoc..jdk11u)
+OpenJDK 64-Bit Server VM OpenLogic-OpenJDK (build 11.0.25+9-adhoc..jdk11u, mixed mode)
 
-### PhoneGap Build
+C:\Users\sayantika>setx SONARQUBE_HOME "C:\Program Files\SonarQube\sonarqube-10.7.0.96327\bin" /M
+ERROR: Access to the registry path is denied.
 
-Create a new app with the following repository:
+C:\Users\sayantika>setx SONAR_SCANNER_HOME "C:\Program Files\SonarScanner\sonar-scanner-6.2.1.4610-windows-x64\bin" /M
+ERROR: Access to the registry path is denied.
 
-    https://github.com/phonegap/phonegap-start.git
+C:\Users\sayantika>set SONARQUBE_HOME=C:\Program Files\SonarQube\sonarqube-10.7.0.96327\bin
 
-## Contributors
+C:\Users\sayantika>set SONAR_SCANNER_HOME=C:\Program Files\SonarScanner\sonar-scanner-6.2.1.4610-windows-x64\bin
 
-### Updating the Application
+C:\Users\sayantika>set PATH=%PATH%;C:\Program Files\SonarQube\sonarqube-10.7.0.96327\bin;C:\Program Files\SonarScanner\sonar-scanner-6.2.1.4610-windows-x64\bin
 
-The application is based on the [Apache Cordova Hello World][cordova-app] app.
+C:\Users\sayantika>echo %SONARQUBE_HOME%
+C:\Program Files\SonarQube\sonarqube-10.7.0.96327\bin
 
-#### 1. Update the Source
+C:\Users\sayantika>echo %SONAR_SCANNER_HOME%
+C:\Program Files\SonarScanner\sonar-scanner-6.2.1.4610-windows-x64\bin
 
-    cp cordova-app-hello-world/www www/
+C:\Users\sayantika>sonar-scanner --version
+10:59:46.453 INFO  Scanner configuration file: C:\Program Files\SonarScanner\sonar-scanner-6.2.1.4610-windows-x64\bin\..\conf\sonar-scanner.properties
+10:59:46.458 INFO  Project root configuration file: NONE
+10:59:46.473 INFO  SonarScanner CLI 6.2.1.4610
+10:59:46.474 INFO  Java 17.0.12 Eclipse Adoptium (64-bit)
+10:59:46.475 INFO  Windows 11 10.0 amd64
 
-**Do not replace `www/config.xml`.**
-
-**Do not replace `www/img/logo.png`.**
-
-#### 2. Update index.html
-
-Replace `<h1>Apache Cordova</h1>` with `<h1>PhoneGap</h1>`.
-
-#### 3. Update PhoneGap Version
-
-    <preference name="phonegap-version" value="x.x.x" />
-
-#### 4. Commit
-
-    $ git commit -am "Version x.x.x"
-
-#### 5. Tag
-
-    $ git tag x.x.x
-
-[phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
-[cordova-app]: http://github.com/apache/cordova-app-hello-world
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-start/badges/score.svg
-[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-start
+C:\Users\sayantika>^A
